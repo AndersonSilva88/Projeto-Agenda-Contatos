@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./img/livro-de-contato.png" alt="agenda">
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contatos">
+            <input type="text" id="nome-contato" required placeholder="Nome Contato">
+            <input type="text" id="numero-contato" required placeholder="Numero Contato" min="0" max="10">
+            <button type="submit">Cadastrar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome Contado
+                    </th>
+                    <th>
+                        Numero Contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+    <footer>
+        <div class="footer">
+            Desenvolvido por Anderson Oliveira da Silva <br>
+            &copy; 2022 - Todos os Direitos reservados
+        </div>
+    </footer>
+</body>
+
+</html>
